@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "TabFlow",
+  "version": "1.0.0",
+  "description": "Context-aware tab intelligence: smart grouping, local analytics, cleanup and study planning.",
+  "permissions": ["tabs", "tabGroups", "storage", "idle", "alarms"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "TabFlow", "default_popup": "popup.html" },
+  "options_page": "dashboard.html"
+}
